@@ -1,0 +1,263 @@
+@media screen and (max-width: 576px) {
+
+
+
+    @font-face {
+        font-family: 'Amatic';
+        src: url('./font/SEGOEUI.TTF');
+    }
+    
+    *{
+        padding: 0;
+        margin: 0;
+       
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    li{
+        list-style:none
+    }
+    
+    .barrenavigation{
+        padding-top: 1%;
+        width: 100%;
+        height: 5vh;
+        font-size: 1em;
+        background-color: white;
+        position: fixed;
+        z-index: 1111;
+        box-shadow : 1px 1px 0.2em 0.2em black;
+    }
+    
+    .logoheader{
+        padding-left: 1vh;
+        padding-right: 1vh;
+       
+        font-weight: 800;
+        display: inline-block;
+    }
+    
+    
+    .pheader{
+        margin-left: 1%;
+        margin-right: 3.5%;
+        width: 70%;
+        display: inline-block;
+       
+    }
+    
+    nav{
+        width: 20%;
+        padding-left: 0.5%;
+        display: inline-block;
+    }
+    .navigation{
+        padding-right: 10%;
+        width: 100%;
+        display: none;
+        
+    }
+    
+    .nav{
+        margin-left: 5%;
+        display: inline-block;
+    }
+    
+    .imageetlogo{
+        border: solid rgb(0, 0, 0);
+        margin-left: 10%;
+    }
+    
+    .imagetop{
+        width: 99%;
+        margin-left: 0.5%;
+    }
+    .logoheader2{
+        font-size: 2em;
+        padding-left: 1vh;
+        padding-right: 1vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: rgba(255, 255, 255, 0.8);
+        display: inline-block;
+    }
+    
+    .logoimg{
+      
+        display: inline-block;
+        position: absolute;
+        bottom: 80%;
+        left: 40%;
+        
+    }
+    .logoarchi{
+        font-size: 2em;
+        display: none;
+        position: absolute;
+        color: white;
+        bottom: 50%;
+        left: 45%;
+        
+    }
+    
+    /* PARTIE PROJECTS */
+    
+    
+    
+    
+    .titreprojects{
+        margin-top: 10%;
+        background-color: white;
+        box-shadow: 0px 5px 5px black;
+        margin-bottom: 1%;
+        margin-left: 0.5%;
+        padding-left: 5%;
+        height: 50px;
+        font-weight: 400;
+    }
+    .listeimg{
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 0.5%;
+        display: block;
+        
+    }
+    .centerimg{
+        text-align: center;
+    }
+    .listingimg{
+      
+        width: 100%;
+       
+        display: inline-block;
+    }
+    .etiquette{
+        padding: 0.5%;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+    
+    }
+    
+    
+    /* PARTIE ABOUT */
+    
+    
+    .titreabout{
+        margin-top: 10%;
+        margin-left: 5%;
+        background-color: white;
+        height: 50px;
+        padding-left: 5%;
+        font-weight: 400;
+        box-shadow: 0px 5px 5px black;
+        margin-bottom: 1%;
+        margin-left: 1%;
+    }
+    #about{
+        margin-bottom: 3%;
+        margin-left: 1%;
+        margin-top: 5%;
+        padding-left: 2%;
+    }
+    .aboutcenterimg{
+        text-align: block;
+        
+        
+    }
+    
+    .listeperso{
+        width: 90%;
+       
+        margin-left: 5%;
+        display: block;
+    }
+    .listepersoimg{
+        width: 100%;
+        
+        display: inline-block;
+    }
+    
+    .nomequipe{
+        padding-top: 5%;
+        font-weight: 400;
+        text-align: left;
+    }
+    .gradeequip{
+        padding-top: 2%;
+        font-weight: 600;
+        color: gray;
+        font-size: 1em;
+        text-align: left;
+    }
+    .descriptionequip{
+        padding-top: 2%;
+        font-size: 0.8em;
+        text-align: left;
+    }
+    .contactequipe{
+        margin-top: 2%;
+        margin-bottom: 10%;
+        padding: 2%;
+        display: block;
+        text-align: center;
+        background-color: gray;
+        
+        
+    }
+    
+    /* PARTIE CONTACT */
+    
+    
+    
+    .titrecontact{
+        
+        background-color: white;
+        height: 50px;
+        font-weight: 400;
+        box-shadow: 0px 5px 5px black;
+        margin-bottom: 1%;
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+    
+    #txtcontact{
+    font-size: 0.8em;
+    margin: 5%;
+    }
+    
+    .formulaire{
+        height: 4vh;
+        margin-left: 5%;
+        display: block;
+        width: 90%;
+    }
+    
+    .bouttonsubmit{
+        margin-left: 5%;
+        background-color: black;
+        color: white;
+        padding: 0.5%;
+    }
+    .imgstreet{
+        margin: 5% 5% 0% 5%;
+        width: 90%;
+    
+        
+    }
+    
+    
+    
+    /* FOOTER */
+    
+    footer{
+        height: 50px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin-top: 0%;
+        padding-top: 2%;
+    }
+    
+    
+            
+    }
+    
