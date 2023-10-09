@@ -1,19 +1,90 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
-        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
-        {% block stylesheets %}
-            {{ encore_entry_link_tags('app') }}
-        {% endblock %}
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			{% block title %}Welcome!
+			{% endblock %}
+		</title>
+		<link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 
-        {% block javascripts %}
-            {{ encore_entry_script_tags('app') }}
-        {% endblock %}
-    </head>
-    <body>
-        {% block body %}{% endblock %}
-    </body>
+	</head>
+	<body>
+
+		<header>
+			<div class="barrenavigation">
+				<p class="pheader">
+					<strong class="logoheader">
+						BR
+					</strong>
+					Architects</p>
+				<nav>
+					<ul class="navigation">
+						<li class="nav">
+							<a href="#">Projects</a>
+						</li>
+						<li class="nav">
+							<a href="#">About</a>
+						</li>
+						<li class="nav">
+							<a href="#">Contact</a>
+						</li>
+					</ul>
+				</nav>
+				<img src="Logo" alt="">
+			</div>
+			<img src="" alt="">
+			<div class="imagetop">
+				<img src="assets/img/architect.jpg" alt="" class="imagetop">
+				<p class="logoimg">
+					<strong class="logoheader2">
+						BR
+					</strong>
+				</p>
+				<p class="logoarchi">Architects</p>
+			</div>
+			
+		</header>
+		{% block body %}
+		 <section>
+        <div>
+            <h1 class="titreprojects">Projects</h1>
+            <div class="centerimg">
+            <div class="listeimg">
+               <p class="etiquette"> Summer House</p>
+               <img src="img/house5.jpg" alt="" class="listingimg">
+            </div>
+            <div class="listeimg">
+                <p class="etiquette">Brick House</p>
+                <img src="img/house2.jpg" alt="" class="listingimg">
+            </div>
+            <div class="listeimg">
+                <p class="etiquette">Renovated</p>
+                <img src="img/house3.jpg" alt="" class="listingimg">
+            </div>
+            <div class="listeimg">
+                <p class="etiquette">Barn House</p>
+                <img src="img/house4.jpg" alt="" class="listingimg">
+            </div>
+            <div class="listeimg">
+                <p class="etiquette"> Summer House</p>
+                <img src="img/house2.jpg" alt="" class="listingimg">
+             </div>
+             <div class="listeimg">
+                 <p class="etiquette">Brick House</p>
+                 <img src="img/house5.jpg" alt="" class="listingimg">
+             </div>
+             <div class="listeimg">
+                 <p class="etiquette">Renovated</p>
+                 <img src="img/house4.jpg" alt="" class="listingimg">
+             </div>
+             <div class="listeimg">
+                 <p class="etiquette">Barn House</p>
+                 <img src="img/house3.jpg" alt="" class="listingimg">
+             </div>
+            </div>
+        </div>
+		
+		{% endblock %}
+	</body>
 </html>
