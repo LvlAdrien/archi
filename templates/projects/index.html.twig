@@ -1,20 +1,44 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello ProjectsController!{% endblock %}
+{% block title %}Architects!{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
-
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/Users/ceppic/Desktop/archi/src/Controller/ProjectsController.php'|file_link(0) }}">src/Controller/ProjectsController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/Users/ceppic/Desktop/archi/templates/projects/index.html.twig'|file_link(0) }}">templates/projects/index.html.twig</a></code></li>
-    </ul>
-</div>
+<section>
+        <div>
+            <h1 class="titreprojects">Projects</h1>
+            <div class="centerimg">
+            <div class="listeimg">
+               <p class="etiquette"> Summer House</p>
+               <img src="assets/img/house5.jpg" alt="" class="listingimg">
+            </div>
+            <div class="listeimg">
+                <p class="etiquette">Brick House</p>
+                <img src="assets/img/house2.jpg" alt="" class="listingimg">
+            </div>
+            <div class="listeimg">
+                <p class="etiquette">Renovated</p>
+                <img src="assets/img/house3.jpg" alt="" class="listingimg">
+            </div>
+            <div class="listeimg">
+                <p class="etiquette">Barn House</p>
+                <img src="assets/img/house4.jpg" alt="" class="listingimg">
+            </div>
+            <div class="listeimg">
+                <p class="etiquette"> Summer House</p>
+                <img src="assets/img/house2.jpg" alt="" class="listingimg">
+             </div>
+             <div class="listeimg">
+                 <p class="etiquette">Brick House</p>
+                 <img src="assets/img/house5.jpg" alt="" class="listingimg">
+             </div>
+             <div class="listeimg">
+                 <p class="etiquette">Renovated</p>
+                 <img src="assets/img/house4.jpg" alt="" class="listingimg">
+             </div>
+             <div class="listeimg">
+                 <p class="etiquette">Barn House</p>
+                 <img src="assets/img/house3.jpg" alt="" class="listingimg">
+             </div>
+            </div>
+        </div>
 {% endblock %}
