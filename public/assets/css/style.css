@@ -2,7 +2,15 @@
     font-family: 'Amatic';
     src: url('./font/SEGOEUI.TTF');
 }
-
+/* @font-face {
+    font-family: 'planetgam';
+    src: url('/font/planetgam.otf');
+} */
+/* *{
+    font-family: 'planetgam';
+    margin: 0;
+    padding: 0;
+} */
 *{
     padding: 0;
     margin: 0;
@@ -22,8 +30,13 @@ li{
     position: fixed;
     z-index: 1111;
     box-shadow : 1px 1px 0.2em 0.2em black;
+    
 }
-
+.barrenavigation a{
+    color: black;
+    border: none;
+    text-decoration: none;
+}
 .logoheader{
     padding-left: 1vh;
     padding-right: 1vh;
@@ -240,15 +253,7 @@ footer{
     padding-top: 2%;
 }
 /* ************************************CSS ADRIEN *************************************** */
-@font-face {
-    font-family: 'planetgam';
-    src: url('/font/planetgam.otf');
-}
-*{
-    font-family: 'planetgam';
-    margin: 0;
-    padding: 0;
-}
+
 /* header  */
 
 .ph1 , .ph2 , .ph3 , .ph4 , .ph5 , .ph6 , .ph7 , .ph8{
@@ -338,18 +343,7 @@ margin-bottom: 1%;
 }
 
                                          /* footer  */
-.foot{
-background-image: url("maquette_archi/img/map.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-background-attachment: fixed;
-font-family: 'Source Serif Pro', serif;
-margin-left: 1%;
-                                    
-width: 98%;
-height: 100vh;
-}
+
                 /* version responsive smart  */
 .projet img{
 margin: 0;
