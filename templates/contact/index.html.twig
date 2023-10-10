@@ -2,39 +2,19 @@
 
 {% block title %}Hello ContactController!{% endblock %}
 
+
 {% block body %}
-<!-- Section Contact  -->
-    <section id="contac">
-        <div class="contact">
-            <h2>Contact</h2>
-            <p>Lets get in touch and talk about your next project.</p>
-
-            <div class="formulaire">
-
-                <div class="name">
-
-                    <input type="text" placeholder="Name">
-                </div>
-                <div class="mail">
-
-                    <input type="email" placeholder="Email">
-                </div>
-                <div class="Subject">
-
-                    <input type="text" placeholder="Subject">
-                </div>
-                <div class="comment">
-
-                    <input type="text" placeholder="Comment">
-                </div>
-
-            </div>
-            <div class="send">
-                <button>SEND MESSAGE</button>
-            </div>
+<label for="form[name]">Name</label>
+<input type="text" id="form_name" name="form[name]" required="required">
 
 
-    </section>
+{{form_start(formulaire)}}
+{{form_widget(formulaire)}}
+
+<button type="submit">Send</button>
+{{form_end(formulaire)}}
+
+
 
 
 
